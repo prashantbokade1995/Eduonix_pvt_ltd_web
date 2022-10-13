@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import App from './Bootstrap/App';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// React Bootstrap Configratution 
+import "../node_modules/react-bootstrap/dist/react-bootstrap"
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
+// import App from './input table/App';
+import App from './Project/Components/App';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  <App/>
   </React.StrictMode>
 );
 
